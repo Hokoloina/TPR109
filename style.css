@@ -1,18 +1,17 @@
 .yeseva-one-regular {
     font-family: "Yeseva One", serif;
     font-weight: 400;
-    font-style: normal;
-    font-size:200%;
+    font-style: outset;
+    font-size: 200%;
+
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
 .montserrat-texte {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 200;
     font-style: normal;
+    opacity: 0.5;
 }
 
 .couleur {
@@ -20,11 +19,54 @@
 }
 
 .titre {
-    
+
     text-transform: uppercase;
+    justify-content: flex-start;
 }
 
 body {
     background-color: #041821;
     color: white;
+
+}
+
+header {
+    border-bottom-style: outset;
+    border-bottom-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+}
+
+.theme {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.portrait {
+    background-color: #0be49f;
+    background-size: 50%;
+}
+
+.grid img:nth-child(n + 10) {
+    display: none;
+}
+
+main{
+background: pink;
+width: 80%;
+margin:auto;
+   
 }
