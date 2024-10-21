@@ -1,0 +1,30 @@
+.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:200%;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-texte {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.couleur {
+    color: #0be49f
+}
+
+.titre {
+    
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #041821;
+    color: white;
+}
