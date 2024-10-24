@@ -23,7 +23,7 @@
     text-transform: uppercase;
     justify-content: flex-start;
     margin: 1%;
-    
+
 }
 
 body {
@@ -40,7 +40,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-    
+
 }
 
 .logo {
@@ -54,12 +54,16 @@ header {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-weight: 200;
-    font-style: normal;
+    width: 100%;
+    max-width: 800px;
+    font-size: 2vw;
     opacity: 1;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
+    white-space: nowrap;
 }
 
 .portrait {
@@ -73,20 +77,36 @@ header {
 
 .images {
     background: rgb(197, 24, 194);
-    
-    margin: 0 -5%;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: auto;
+    flex-flow: wrap;
     gap: 8px;
-    flex: 1 1;
+    max-width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
 
 
 }
+
 .images img {
-
+    flex: 1 1 200px;
+    height: auto;
+    object-fit: cover;
+    box-sizing: border-box;
 }
+
+@media (max-width: 480px) {
+    .images img {
+        flex: 1 1 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .images img {
+        flex: 1 1 20%;
+    }
+}
+
 .copyright {
     text-transform: uppercase;
     font-family: "Montserrat", serif;
@@ -94,9 +114,10 @@ header {
     font-weight: 200;
     font-style: normal;
     opacity: 0.5;
-    font-size:x-small;
+    font-size: x-small;
 }
-.exercice{
+
+.exercice {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-weight: 150;
@@ -104,21 +125,32 @@ header {
     opacity: 0.5;
     font-size: xx-small;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
 
-    
+
 }
 
-main{
-    padding: 0 10%
+main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 5em;
 }
+
 @media (max-width: 480px) {
-    main {
-        padding: 0 4%
+    .theme {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 4768px) {
+    .theme {
+        font-size: 2vw;
     }
 }
