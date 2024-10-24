@@ -73,17 +73,20 @@ header {
 
 .images {
     background: rgb(197, 24, 194);
-    max-width: calc(25% - 10px);
+    
     margin: 0 -5%;
     display: flex;
-    justify-content: space-between;
-    height: auto;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 8px;;
+    height: auto;
+    gap: 8px;
+    flex: 1 1;
 
 
 }
+.images img {
 
+}
 .copyright {
     text-transform: uppercase;
     font-family: "Montserrat", serif;
