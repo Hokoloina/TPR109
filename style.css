@@ -2,9 +2,10 @@
     font-family: "Yeseva One", serif;
     font-weight: 400;
     font-style: outset;
-    font-size: 200%;
-
+    font-size: 3vw;
+    margin-right: 50%;
 }
+
 
 .montserrat-texte {
     font-family: "Montserrat", serif;
@@ -12,7 +13,33 @@
     font-weight: 200;
     font-style: normal;
     opacity: 0.5;
+    margin-right: 45%;
+    margin-bottom: 3%;
 }
+
+@media (max-width: 767px) {
+    .montserrat-texte {
+        margin-right: 0;
+        margin-bottom: 7%;
+    }
+    .yeseva-one-regular {
+        font-size: 10vw;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .montserrat-texte {
+        margin-right: 30%;
+    }
+    .yeseva-one-regular{
+        font-size: 6vw;
+        margin-right: 5%;
+    }
+}
+    
+
+    
 
 .couleur {
     color: #0be49f
@@ -25,6 +52,8 @@
     margin: 1%;
 
 }
+
+
 
 body {
     background-color: #041821;
@@ -55,18 +84,40 @@ header {
     font-optical-sizing: auto;
     font-weight: 200;
     width: 100%;
-    max-width: 800px;
-    font-size: 2vw;
     opacity: 1;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    justify-content: center;
-    gap: 25px;
     white-space: nowrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 0 0%;
+
 }
-.theme p { 
-    
+
+.theme p {
+    margin: 0 20px;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+@media (max-width: 480px) {
+    .theme {
+        font-size: 6vw;
+    }
+
+    .theme p {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .theme {
+        font-size: 4vw;
+    }
+
+    .theme p {
+        margin: 0 40px;
+    }
 }
 
 .portrait {
@@ -82,11 +133,12 @@ header {
     background: rgb(197, 24, 194);
     display: flex;
     flex-flow: wrap;
-    gap: 8px;
+    gap: 10px;
     max-width: 100%;
     padding: 0;
     box-sizing: border-box;
     width: 100%;
+    justify-content: space-between;
 
 
 }
@@ -141,19 +193,19 @@ main {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 0 2rem;
-    
+    padding: 0 5rem;
+
 
 }
 
 @media (max-width: 480px) {
-    .theme {
-        font-size: 6vw;
+    main {
+        padding: 0 1rem;
     }
 }
 
 @media (max-width: 768px) {
-    .theme {
-        font-size: 4vw;
+    main {
+        padding: 0 1rem;
     }
 }
