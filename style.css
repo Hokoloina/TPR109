@@ -1,7 +1,6 @@
 .yeseva-one-regular {
     font-family: "Yeseva One", serif;
     font-weight: 400;
-    font-style: outset;
     font-size: 3vw;
     margin-right: 50%;
 }
@@ -9,7 +8,6 @@
 
 .montserrat-texte {
     font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     opacity: 0.5;
@@ -94,7 +92,6 @@ header {
 .theme {
     background-color: rgba(165, 42, 42, 0);
     font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     width: 100%;
     opacity: 1;
@@ -183,7 +180,6 @@ header {
     margin-top: 50%;
     text-transform: uppercase;
     font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     opacity: 0.5;
@@ -192,7 +188,6 @@ header {
 
 .exercice {
     font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
     font-weight: 150;
     font-style: normal;
     opacity: 0.5;
