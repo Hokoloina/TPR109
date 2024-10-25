@@ -189,7 +189,8 @@ header {
     display: flex;
     flex-flow: wrap;
     /* Les éléments passent à la ligne si nécessaire */
-    gap: 5px; /* Espacement entre les images */
+    gap: 6px;
+    /* Espacement entre les images */
     max-width: 100%;
     padding: 0;
     box-sizing: border-box;
