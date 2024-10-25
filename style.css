@@ -1,21 +1,33 @@
 .yeseva-one-regular {
     font-family: "Yeseva One", serif;
+    /* Police "Yeseva One" */
     font-weight: 400;
+    /* Épaisseur de la police */
     font-size: 3vw;
+    /* Taille du texte en fonction de la largeur de la fenêtre */
     margin-right: 50%;
+    /* Marge à droite de 50% pour le décalage */
 }
 
 
 .montserrat-texte {
     font-family: "Montserrat", serif;
+    /* Police "Montserrat" */
     font-weight: 200;
+    /* Police légère */
     font-style: normal;
+    /* Pas d'italique */
     opacity: 0.5;
+    /* Transparence à 50% */
     margin-right: 50%;
+    /* Marge à droite de 50% */
     margin-bottom: 3%;
+    /* Espace en bas de 3% */
     font-size: 1vw;
+    /* Taille du texte ajustée à la largeur de la fenêtre */
 }
 
+/* Styles polices pour les petits écrans (téléphones) */
 @media (max-width: 767px) {
     .montserrat-texte {
         margin-right: 0;
@@ -29,6 +41,7 @@
     }
 }
 
+/* Styles police pour les tablettes */
 @media (min-width: 768px) and (max-width: 1023px) {
     .montserrat-texte {
         margin-right: 26%;
@@ -42,21 +55,25 @@
 }
 
 
-
-
+/* Pour mettre le point et les mots "créative & engagée." uniquement en couleur */
 .couleur {
     color: #0be49f
 }
 
+
 .titre {
 
     text-transform: uppercase;
+    /* Conversion du texte en majuscules */
     justify-content: flex-start;
-    margin: 1%;
+    /* Alignement à gauche */
+    margin: 2%;
+    /* Marge autour du titre */
 
 }
 
 
+/* Style global du corps de la page */
 
 body {
     background-color: #041821;
@@ -65,64 +82,87 @@ body {
 
 }
 
+/* Style pour l'en-tête de la page */
+
 header {
     border-bottom-style: outset;
+    /* Bordure inférieure pour séparer l'en-tête */
     border-bottom-width: 1px;
+    /* Épaisseur de la bordure */
     display: flex;
+    /* Affichage en flexbox */
     align-items: center;
+    /* Alignement vertical centré */
     justify-content: space-between;
     padding: 20px 0;
+    /* Espace en haut et en bas */
 
 }
 
+/* Styles pour l'en-tête sur petits écrans */
 @media (max-width: 767px) {
     header {
         display: flex;
         align-items: center;
         flex-direction: column;
+        /* Affichage en colonne pour petits écrans */
     }
 }
 
+
+/* Style pour les logos */
 .logo {
     display: flex;
     gap: 20px;
     margin: 20px;
 }
 
+/* Style pour les mots nature portrait art urbain et animaux */
 .theme {
-    background-color: rgba(165, 42, 42, 0);
     font-family: "Montserrat", serif;
     font-weight: 200;
     width: 100%;
+    /* Occupe la largeur complète */
     opacity: 1;
+    /* Opacité pleine */
     display: flex;
     white-space: nowrap;
+    /* Pas de retour à la ligne */
     justify-content: center;
     margin-bottom: 30px;
     padding: 0 0%;
+    /* Pas de padding */
 
 }
 
+/* Style pour les paragraphes dans la section theme */
 .theme p {
     margin: 0 20px;
+    /* Marges latérales */
     font-size: 2vw;
+    /* Taille de police ajustée à la largeur de l'écran */
     text-align: center;
 
 }
 
+/* Adaptation du texte pour les petits écrans */
 @media (max-width: 767px) {
 
 
     .theme p {
         font-size: 3vw;
+        /* Taille de police augmentée sur petits écrans */
         margin: 4%;
+        /* Marges autour augmentées */
 
     }
 }
 
+/* Adaptation pour les écrans de tablette */
 @media (min-width: 768px) and (max-width: 1023px) {
     .theme {
         font-size: 4vw;
+        /* Taille du texte augmentée pour les tablettes */
     }
 
     .theme p {
@@ -130,46 +170,58 @@ header {
     }
 }
 
+
+/* Style pour la mot "portrait" */
 .portrait {
     background-color: #0be49f;
+    /* Couleur de fond verte */
     padding: 5px;
-    background-size: 50%;
+    /* Espace intérieur */
 }
 
+/* Masque les images après la 10ème dans la grille */
 .grid img:nth-child(n + 10) {
     display: none;
 }
 
+/* Style pour la grille d'images */
 .images {
-    background: rgba(197, 24, 194, 0);
     display: flex;
     flex-flow: wrap;
-    gap: 5px;
+    /* Les éléments passent à la ligne si nécessaire *
+    gap: 5px;/* Espacement entre les images */
     max-width: 100%;
     padding: 0;
     box-sizing: border-box;
+    /* Inclure la bordure et le padding dans la largeur totale */
     width: 100%;
-
+    /* Largeur de la grille complète */
 
 }
 
+/* Style pour les images dans la grille */
 .images img {
     height: auto;
+    /* Hauteur automatique pour garder les proportions */
     object-fit: cover;
+    /* Recadrage de l'image pour remplir l'espace */
 }
 
+/* Taille des images pour les tablettes */
 @media (min-width: 768px) and (max-width: 1023px) {
     .images img {
         width: 19.2%;
     }
 }
 
+/* Taille des images pour les petits écrans */
 @media (max-width: 767px) {
     .images img {
         width: 32%;
     }
 }
 
+/* Taille des images pour les écrans supérieurs à 1024px */
 @media (min-width: 1024px) {
     .images img {
         width: 24.5%
@@ -183,7 +235,9 @@ header {
     font-weight: 200;
     font-style: normal;
     opacity: 0.5;
+    /* Transparence à 50% */
     font-size: x-small;
+    /* Taille de police très petite */
 }
 
 .exercice {
@@ -192,18 +246,22 @@ header {
     font-style: normal;
     opacity: 0.5;
     font-size: xx-small;
+    /* Taille de police extrêmement petite */
 }
 
+/* Style pour le pied de page */
 footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    /* Affichage en colonne */
     align-items: center;
     text-align: center;
 
 
 }
 
+/* Style pour le contenu principal */
 main {
     display: flex;
     flex-direction: column;
@@ -213,12 +271,14 @@ main {
 
 }
 
+/* Adaptation écran téléphone */
 @media (max-width: 767px) {
     main {
         padding: 0 1rem;
     }
 }
 
+/* Adaptation écran tablette */
 @media (min-width: 768px) and (max-width: 1023px) {
     main {
         padding: 0 5rem;
