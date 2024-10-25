@@ -20,4 +20,4 @@ Le développement a été effectué sur **Visual Studio Code**, avec plusieurs c
 
 ## Lien vers GitHub Pages
 
-Le site est accessible via GitHub Pages à l'adresse suivante : [Lien vers le site](#)
+Le site est accessible via GitHub Pages à l'adresse suivante : [Lien vers le site](https://hokoloina.github.io/TPR109/)
