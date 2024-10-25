@@ -15,8 +15,9 @@ Le développement a été effectué sur **Visual Studio Code**, avec plusieurs c
 
 ## Langages et Technologies Utilisés
 
-- **HTML** : Structure et organisation du contenu du site web.
-- **CSS** : Style et mise en page, avec l'utilisation de Flexbox et CSS Grid pour une disposition fluide des éléments. Le design est responsive grâce aux Media Queries, et les polices sont importées via l'API de Google Fonts.
+- **HTML** : Utilisé pour structurer le contenu du site web. J'ai privilégié l'utilisation de balises **sémantiques** (`<header>`, `<main>`, `<section>`, `<footer>`, etc.) pour rendre la structure du site plus claire et accessible. De plus, le code HTML ne contient pas de styles CSS intégrés (pas de balises `<style>`), ce qui permet de séparer la structure du contenu visuel, favorisant ainsi la maintenance et la lisibilité.
+
+- **CSS** : Utilisé pour le style et la mise en page du site. Le CSS m'a permis de contrôler précisément l'apparence du site, de créer une mise en page responsive avec Flexbox et CSS Grid, et d'assurer une expérience utilisateur fluide sur différents appareils grâce aux Media Queries. La personnalisation des polices et des couleurs ajoute une identité visuelle forte au projet
 
 ## Lien vers GitHub Pages
 
