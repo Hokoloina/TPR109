@@ -114,12 +114,12 @@ header {
 }
 
 @media (max-width: 767px) {
-    
+
 
     .theme p {
         font-size: 3vw;
         margin: 4%;
-        
+
     }
 }
 
@@ -172,11 +172,13 @@ header {
         width: 32%;
     }
 }
+
 @media (min-width: 1024px) {
     .images img {
         width: 24.5%
     }
 }
+
 .copyright {
     margin-top: 50%;
     text-transform: uppercase;
