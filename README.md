@@ -13,7 +13,7 @@ Ce projet est le rendu du **projet Fil Rouge**, où j'ai reproduit une maquette 
 
 Le développement a été effectué sur **Visual Studio Code**, avec plusieurs commits réalisés et suivis sur **GitHub**.
 
-## Langages et Technologies Utilisés
+## Langages Utilisés
 
 - **HTML** : Utilisé pour structurer le contenu du site web. J'ai privilégié l'utilisation de balises **sémantiques** (`<header>`, `<main>`, `<section>`, `<footer>`, etc.) pour rendre la structure du site plus claire et accessible. De plus, le code HTML ne contient pas de styles CSS intégrés (pas de balises `<style>`), ce qui permet de séparer la structure du contenu visuel, favorisant ainsi la maintenance et la lisibilité.
 
